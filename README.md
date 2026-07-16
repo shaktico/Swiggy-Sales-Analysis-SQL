@@ -1,89 +1,30 @@
-# Swiggy Sales Analysis Using SQL
+# Swiggy Sales Analysis | Microsoft SQL Server
 
 ## About the Project
 
-I created this project to analyze Swiggy food delivery data using Microsoft SQL Server.
-
-In this project, I cleaned the raw data, removed duplicate records and created a star schema using dimension and fact tables. After preparing the data, I performed different analyses to understand order trends, revenue, restaurant performance, food categories and customer spending patterns.
+Developed a SQL-based sales analysis solution to transform raw Swiggy food delivery data into a structured analytical model. The project focused on improving data quality, building a Star Schema, and generating business insights related to restaurant performance, customer ordering patterns, revenue, and location-based analysis.
 
 ## Tools Used
 
 - Microsoft SQL Server
 - SQL Server Management Studio
-- SQL
-- Excel
+- Microsoft Excel
 
-## Project Process
+## Project Highlights
 
-### 1. Data Cleaning
-
-- Checked null values
-- Checked blank values
-- Identified duplicate records
-- Removed duplicate records using `ROW_NUMBER()`
-
-### 2. Data Modeling
-
-Created a star schema using the following tables:
-
-- `dim_date`
-- `dim_location`
-- `dim_restaurant`
-- `dim_category`
-- `dim_dish`
-- `fact_swiggy_orders`
-
-## KPIs
-
-- Total Orders
-- Total Revenue
-- Average Dish Price
-- Average Rating
-
-## Analysis Performed
-
-- Monthly order trends
-- Quarterly order trends
-- Year-wise order analysis
-- Day-wise order patterns
-- Top 10 cities by orders
-- Revenue contribution by state
-- Top 10 restaurants
-- Category performance
-- Most ordered dishes
-- Orders and average ratings by cuisine
-- Customer spending analysis
-- Rating distribution
-
-## SQL Concepts Used
-
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
-- JOINS
-- CASE Statements
-- CTEs
-- ROW_NUMBER
-- Window Functions
-- Subqueries
-- Star Schema
-- Primary and Foreign Keys
-
-## What I Learned
-
-Through this project, I improved my knowledge of SQL data cleaning, dimensional modeling and business analysis.
-
-I also learned how to create dimension and fact tables, build relationships using primary and foreign keys and convert business requirements into SQL queries.
+- Cleaned and validated **197K+ food delivery records** by handling null values, blank records, and duplicate entries, creating a reliable dataset for business analysis.
+- Designed and implemented a **Star Schema** with dimension and fact tables, improving data organization and enabling efficient analytical reporting.
+- Developed SQL queries to calculate key business KPIs including **Total Orders, Total Revenue, Average Dish Price, and Average Rating**, providing a comprehensive view of business performance.
+- Performed business analysis across **restaurants, cities, states, cuisines, dishes, customer spending segments, and time-based trends**, identifying top-performing restaurants, high-revenue locations, popular cuisines, and customer purchasing behaviour.
+- Applied advanced SQL concepts including **Joins, CTEs, Window Functions, CASE Statements, Aggregate Functions, Subqueries, and ROW_NUMBER()** to convert business requirements into meaningful analytical insights.
 
 ## Project Files
 
-- `SQL_Swiggy_Analysis.sql` – Contains data cleaning, star schema creation and analysis queries
-- `Swiggy_Data.csv` – Dataset used for the project
+- `Swiggy_Data.csv`
+- `SQL_Swiggy_Analysis.sql`
 
-## Created By
+---
 
-**Shakti Singh Rajput**
+**Created By:** Shakti Singh Rajput
 
-[LinkedIn Profile](https://www.linkedin.com/in/shakti-singh-95860b3ab)
+**LinkedIn:** https://www.linkedin.com/in/shakti-singh-95860b3ab
